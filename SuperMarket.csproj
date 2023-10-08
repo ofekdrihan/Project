@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{68E3B8D5-4284-4615-BA44-041220B36B4E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SuperMarket</RootNamespace>
+    <AssemblyName>SuperMarket</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Backend\Enums\eChocolateExtras.cs" />
+    <Compile Include="Backend\Enums\eChocolateKinds.cs" />
+    <Compile Include="Backend\Enums\eHealthySnackPurposes.cs" />
+    <Compile Include="Backend\Enums\eMeatTypes.cs" />
+    <Compile Include="Backend\Enums\eProducts.cs" />
+    <Compile Include="Backend\Enums\eSaltyTypes.cs" />
+    <Compile Include="Backend\Enums\eVegetables.cs" />
+    <Compile Include="Backend\Model\Chocolate.cs" />
+    <Compile Include="Backend\Model\HealthySnack.cs" />
+    <Compile Include="Backend\Model\Meat.cs" />
+    <Compile Include="Backend\Model\Product.cs" />
+    <Compile Include="Backend\Model\Salty.cs" />
+    <Compile Include="Backend\Model\Snack.cs" />
+    <Compile Include="Backend\Model\Vegetables.cs" />
+    <Compile Include="Backend\SuperMarketManager.cs" />
+    <Compile Include="Backend\Utils\FileUtils.cs" />
+    <Compile Include="Frontend\Forms\AllProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frontend\Forms\AllProducts.Designer.cs">
+      <DependentUpon>AllProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frontend\Forms\FormSpecific.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frontend\Forms\FormSpecific.Designer.cs">
+      <DependentUpon>FormSpecific.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frontend\Forms\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frontend\Forms\FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frontend\UserControls\AddChocolate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Frontend\UserControls\AddChocolate.Designer.cs">
+      <DependentUpon>AddChocolate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frontend\UserControls\AddHealthySnack.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Frontend\UserControls\AddHealthySnack.Designer.cs">
+      <DependentUpon>AddHealthySnack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frontend\UserControls\AddMeat.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Frontend\UserControls\AddMeat.Designer.cs">
+      <DependentUpon>AddMeat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frontend\UserControls\AddProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Frontend\UserControls\AddProduct.Designer.cs">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frontend\UserControls\AddSalty.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Frontend\UserControls\AddSalty.Designer.cs">
+      <DependentUpon>AddSalty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frontend\UserControls\AddVegtable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Frontend\UserControls\AddVegtable.Designer.cs">
+      <DependentUpon>AddVegtable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Frontend\Forms\AllProducts.resx">
+      <DependentUpon>AllProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frontend\Forms\FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frontend\Forms\FormSpecific.resx">
+      <DependentUpon>FormSpecific.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frontend\UserControls\AddChocolate.resx">
+      <DependentUpon>AddChocolate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frontend\UserControls\AddHealthySnack.resx">
+      <DependentUpon>AddHealthySnack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frontend\UserControls\AddMeat.resx">
+      <DependentUpon>AddMeat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frontend\UserControls\AddProduct.resx">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frontend\UserControls\AddSalty.resx">
+      <DependentUpon>AddSalty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frontend\UserControls\AddVegtable.resx">
+      <DependentUpon>AddVegtable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\DataSources\FormMain.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
+    <None Include="Properties\DataSources\SuperMarket.Backend.Model.Chocolate.datasource" />
+    <None Include="Properties\DataSources\SuperMarket.Backend.Model.HealthySnack.datasource" />
+    <None Include="Properties\DataSources\SuperMarket.Backend.Model.Product.datasource" />
+    <None Include="Properties\DataSources\SuperMarket.Backend.Model.Salty.datasource" />
+    <None Include="Properties\DataSources\SuperMarket.Backend.Model.Snack.datasource" />
+    <None Include="Properties\DataSources\SuperMarket.Backend.SuperMarketManager.datasource" />
+    <None Include="Properties\DataSources\SuperMarket.Frontend.Forms.FormSpecific.datasource" />
+    <None Include="Properties\DataSources\SuperMarket.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\SuperMarket.Properties.Settings.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="superPhotos\AllPro.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="superPhotos\btnAdd.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="superPhotos\btnRemove.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="superPhotos\find.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="superPhotos\Meat.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="superPhotos\Snack.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="superPhotos\Veg.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="superPhotos\super.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="superPhotos\super2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="music\super.mp3" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

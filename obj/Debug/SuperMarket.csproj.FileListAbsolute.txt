@@ -1,0 +1,46 @@
+C:\Users\97254\Desktop\תואר מדמ''ח - אוריה\סמסטר ב' תשפ''ג\תכנות מונחה עצמים\פרוייקט\SuperMarket\bin\Debug\SuperMarket.exe.config
+C:\Users\97254\Desktop\תואר מדמ''ח - אוריה\סמסטר ב' תשפ''ג\תכנות מונחה עצמים\פרוייקט\SuperMarket\bin\Debug\SuperMarket.exe
+C:\Users\97254\Desktop\תואר מדמ''ח - אוריה\סמסטר ב' תשפ''ג\תכנות מונחה עצמים\פרוייקט\SuperMarket\bin\Debug\SuperMarket.pdb
+C:\Users\97254\Desktop\תואר מדמ''ח - אוריה\סמסטר ב' תשפ''ג\תכנות מונחה עצמים\פרוייקט\SuperMarket\bin\Debug\Interop.WMPLib.dll
+C:\Users\97254\Desktop\תואר מדמ''ח - אוריה\סמסטר ב' תשפ''ג\תכנות מונחה עצמים\פרוייקט\SuperMarket\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\97254\Desktop\תואר מדמ''ח - אוריה\סמסטר ב' תשפ''ג\תכנות מונחה עצמים\פרוייקט\SuperMarket\obj\Debug\Interop.WMPLib.dll
+C:\Users\97254\Desktop\תואר מדמ''ח - אוריה\סמסטר ב' תשפ''ג\תכנות מונחה עצמים\פרוייקט\SuperMarket\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\97254\Desktop\תואר מדמ''ח - אוריה\סמסטר ב' תשפ''ג\תכנות מונחה עצמים\פרוייקט\SuperMarket\obj\Debug\SuperMarket.csproj.ResolveComReference.cache
+C:\Users\97254\Desktop\תואר מדמ''ח - אוריה\סמסטר ב' תשפ''ג\תכנות מונחה עצמים\פרוייקט\SuperMarket\obj\Debug\SuperMarket.Frontend.Forms.AllProducts.resources
+C:\Users\97254\Desktop\תואר מדמ''ח - אוריה\סמסטר ב' תשפ''ג\תכנות מונחה עצמים\פרוייקט\SuperMarket\obj\Debug\SuperMarket.Frontend.Forms.Form1.resources
+C:\Users\97254\Desktop\תואר מדמ''ח - אוריה\סמסטר ב' תשפ''ג\תכנות מונחה עצמים\פרוייקט\SuperMarket\obj\Debug\SuperMarket.Frontend.Forms.FormSpecific.resources
+C:\Users\97254\Desktop\תואר מדמ''ח - אוריה\סמסטר ב' תשפ''ג\תכנות מונחה עצמים\פרוייקט\SuperMarket\obj\Debug\SuperMarket.Frontend.UserControls.AddChocolate.resources
+C:\Users\97254\Desktop\תואר מדמ''ח - אוריה\סמסטר ב' תשפ''ג\תכנות מונחה עצמים\פרוייקט\SuperMarket\obj\Debug\SuperMarket.Frontend.UserControls.AddHealthySnack.resources
+C:\Users\97254\Desktop\תואר מדמ''ח - אוריה\סמסטר ב' תשפ''ג\תכנות מונחה עצמים\פרוייקט\SuperMarket\obj\Debug\SuperMarket.Frontend.UserControls.AddMeat.resources
+C:\Users\97254\Desktop\תואר מדמ''ח - אוריה\סמסטר ב' תשפ''ג\תכנות מונחה עצמים\פרוייקט\SuperMarket\obj\Debug\SuperMarket.Frontend.UserControls.AddProduct.resources
+C:\Users\97254\Desktop\תואר מדמ''ח - אוריה\סמסטר ב' תשפ''ג\תכנות מונחה עצמים\פרוייקט\SuperMarket\obj\Debug\SuperMarket.Frontend.UserControls.AddSalty.resources
+C:\Users\97254\Desktop\תואר מדמ''ח - אוריה\סמסטר ב' תשפ''ג\תכנות מונחה עצמים\פרוייקט\SuperMarket\obj\Debug\SuperMarket.Frontend.UserControls.AddVegtable.resources
+C:\Users\97254\Desktop\תואר מדמ''ח - אוריה\סמסטר ב' תשפ''ג\תכנות מונחה עצמים\פרוייקט\SuperMarket\obj\Debug\SuperMarket.Properties.Resources.resources
+C:\Users\97254\Desktop\תואר מדמ''ח - אוריה\סמסטר ב' תשפ''ג\תכנות מונחה עצמים\פרוייקט\SuperMarket\obj\Debug\SuperMarket.csproj.GenerateResource.cache
+C:\Users\97254\Desktop\תואר מדמ''ח - אוריה\סמסטר ב' תשפ''ג\תכנות מונחה עצמים\פרוייקט\SuperMarket\obj\Debug\SuperMarket.csproj.CoreCompileInputs.cache
+C:\Users\97254\Desktop\תואר מדמ''ח - אוריה\סמסטר ב' תשפ''ג\תכנות מונחה עצמים\פרוייקט\SuperMarket\obj\Debug\SuperMarket.exe
+C:\Users\97254\Desktop\תואר מדמ''ח - אוריה\סמסטר ב' תשפ''ג\תכנות מונחה עצמים\פרוייקט\SuperMarket\obj\Debug\SuperMarket.pdb
+C:\Users\driha\OneDrive\שולחן העבודה\פרוייקט מונחה\bin\Debug\SuperMarket.exe.config
+C:\Users\driha\OneDrive\שולחן העבודה\פרוייקט מונחה\bin\Debug\SuperMarket.exe
+C:\Users\driha\OneDrive\שולחן העבודה\פרוייקט מונחה\bin\Debug\SuperMarket.pdb
+C:\Users\driha\OneDrive\שולחן העבודה\פרוייקט מונחה\bin\Debug\Interop.WMPLib.dll
+C:\Users\driha\OneDrive\שולחן העבודה\פרוייקט מונחה\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\driha\OneDrive\שולחן העבודה\פרוייקט מונחה\obj\Debug\SuperMarket.csproj.AssemblyReference.cache
+C:\Users\driha\OneDrive\שולחן העבודה\פרוייקט מונחה\obj\Debug\SuperMarket.csproj.SuggestedBindingRedirects.cache
+C:\Users\driha\OneDrive\שולחן העבודה\פרוייקט מונחה\obj\Debug\Interop.WMPLib.dll
+C:\Users\driha\OneDrive\שולחן העבודה\פרוייקט מונחה\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\driha\OneDrive\שולחן העבודה\פרוייקט מונחה\obj\Debug\SuperMarket.csproj.ResolveComReference.cache
+C:\Users\driha\OneDrive\שולחן העבודה\פרוייקט מונחה\obj\Debug\SuperMarket.Frontend.Forms.AllProducts.resources
+C:\Users\driha\OneDrive\שולחן העבודה\פרוייקט מונחה\obj\Debug\SuperMarket.Frontend.Forms.Form1.resources
+C:\Users\driha\OneDrive\שולחן העבודה\פרוייקט מונחה\obj\Debug\SuperMarket.Frontend.Forms.FormSpecific.resources
+C:\Users\driha\OneDrive\שולחן העבודה\פרוייקט מונחה\obj\Debug\SuperMarket.Frontend.UserControls.AddChocolate.resources
+C:\Users\driha\OneDrive\שולחן העבודה\פרוייקט מונחה\obj\Debug\SuperMarket.Frontend.UserControls.AddHealthySnack.resources
+C:\Users\driha\OneDrive\שולחן העבודה\פרוייקט מונחה\obj\Debug\SuperMarket.Frontend.UserControls.AddMeat.resources
+C:\Users\driha\OneDrive\שולחן העבודה\פרוייקט מונחה\obj\Debug\SuperMarket.Frontend.UserControls.AddProduct.resources
+C:\Users\driha\OneDrive\שולחן העבודה\פרוייקט מונחה\obj\Debug\SuperMarket.Frontend.UserControls.AddSalty.resources
+C:\Users\driha\OneDrive\שולחן העבודה\פרוייקט מונחה\obj\Debug\SuperMarket.Frontend.UserControls.AddVegtable.resources
+C:\Users\driha\OneDrive\שולחן העבודה\פרוייקט מונחה\obj\Debug\SuperMarket.Properties.Resources.resources
+C:\Users\driha\OneDrive\שולחן העבודה\פרוייקט מונחה\obj\Debug\SuperMarket.csproj.GenerateResource.cache
+C:\Users\driha\OneDrive\שולחן העבודה\פרוייקט מונחה\obj\Debug\SuperMarket.csproj.CoreCompileInputs.cache
+C:\Users\driha\OneDrive\שולחן העבודה\פרוייקט מונחה\obj\Debug\SuperMarket.exe
+C:\Users\driha\OneDrive\שולחן העבודה\פרוייקט מונחה\obj\Debug\SuperMarket.pdb
